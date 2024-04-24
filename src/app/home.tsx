@@ -49,33 +49,26 @@ export default function Home() {
           Navigate Your Finances
           <span className=" text-blue-500"> with Ease</span>
         </h1>
-        <div className="py-1 w-1/2 text-1xl font-bold text-center text-gray-900">
-          <p>
-            TaxCrafter is a <span className="text-blue-500">simple</span>,
-            easy-to-use tool that helps you manage your{" "}
-            <span className="text-blue-500">taxes</span>.
-          </p>
-        </div>
         <div className="py-2 text-2xl font-bold text-center text-gray-900">
           <p>Find out how much your salary will be after taxes</p>
         </div>
         <div className="py-1">
           <input
             type="text"
-            className="py-2 px-4 text-2xl font-bold text-center text-gray-900"
+            className="rounded-xl py-2 px-4 text-2xl font-bold text-center text-gray-900"
             placeholder="Enter your salary"
             value={salary}
             onChange={handleSalaryChange}
           />
           <button
-            className="py-2 px-4 text-2xl font-bold text-center text-gray-900 bg-blue-500"
+            className=" rounded-xl py-2 px-4 text-2xl font-bold text-center text-gray-200 bg-blue-500"
             onClick={calculateTax}
           >
             Calculate
           </button>
         </div>
         <div className="py-2 w-full max-w-6xl mx-auto">
-          <div className="grid grid-cols-8 gap-4 bg-gray-200 py-2 text-2xl text-gray-900">
+          <div className=" flex flex-col rounded-xl md:grid md:grid-cols-8 gap-4 bg-gray-200 py-2 text-2xl text-gray-900">
             {/* Salary and tax details */}
             <div className="col-span-5">
               <div className="grid grid-cols-5 items-center mb-4">
@@ -96,10 +89,14 @@ export default function Home() {
               </div>
               <div className="grid grid-cols-5 items-center mb-4">
                 <p className="col-span-1 text-left pl-4">Step Tax:</p>
-                <p className="col-span-4 text-center">{steptax}%</p>
+                <p className="col-span-4 text-center border-b border-b-1 border-gray-400">
+                  {steptax}%
+                </p>
               </div>
               <div className="grid grid-cols-5 items-center mb-4">
-                <p className="col-span-1 text-left pl-4">Net salary:</p>
+                <p className="font-bold col-span-1 text-left pl-4">
+                  Net salary:
+                </p>
                 <p className="col-span-4 text-center">{netto}</p>
               </div>
             </div>
@@ -110,6 +107,13 @@ export default function Home() {
               )}
             </div>
           </div>
+        </div>
+        <div className="py-1 w-1/2 text-1xl font-bold text-center text-gray-900">
+          <p>
+            TaxCrafter is a <span className="text-blue-500">simple</span>,
+            easy-to-use tool that helps you manage your{" "}
+            <span className="text-blue-500">taxes</span>.
+          </p>
         </div>
       </div>
     </div>
