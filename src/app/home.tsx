@@ -99,6 +99,18 @@ export default function Home() {
                 </p>
                 <p className="col-span-4 text-center">{netto}</p>
               </div>
+              <div className=" ml-7 grid grid-cols-2 w-full items-center mb-2">
+                <p className="text-sm col-span-4 text-left">
+                  Bagging {salary} kr in Norway? That's a juicy stack! But pump
+                  the brakes, hotshot—here comes the taxman, tiptoeing like a
+                  ninja on snowshoes, ready to snatch {tax} kr—that's {steptax}%
+                  of your dough! What’s left for your piggy bank? Just {netto}{" "}
+                  kr. It’s like gearing up for an all-you-can-eat Viking feast
+                  and ending up with just the pickles. Seriously, trying to
+                  dodge the Norwegian taxman is like trying to find flip-flops
+                  in a blizzard. Time to cough up the cash, pal!
+                </p>
+              </div>
             </div>
             {/* PieChart */}
             <div className="col-span-3">
@@ -108,7 +120,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="py-1 w-1/2 text-1xl font-bold text-center text-gray-900">
+        <div className=" w-1/2 text-1xl font-bold text-center text-gray-900">
           <p>
             TaxCrafter is a <span className="text-blue-500">simple</span>,
             easy-to-use tool that helps you manage your{" "}

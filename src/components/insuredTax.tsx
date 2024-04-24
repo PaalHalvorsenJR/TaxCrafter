@@ -1,3 +1,7 @@
 export const insuredTax = (income: number): number => {
-  return income * -0.082;
+  if (income > 70000) {
+    return income * -0.082;
+  } else {
+    return 0;
+  }
 };
