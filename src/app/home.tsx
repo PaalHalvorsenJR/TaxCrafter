@@ -91,12 +91,12 @@ export default function Home() {
                 <p className="col-span-4 text-center">{jointtax}</p>
               </div>
               <div className="grid grid-cols-5 items-center mb-4">
-                <p className="col-span-1 text-left pl-4">Step Tax:</p>
-                <p className="col-span-4 text-center">{steptax}%</p>
-              </div>
-              <div className="grid grid-cols-5 items-center mb-4">
                 <p className="col-span-1 text-left pl-4">Total tax:</p>
                 <p className="col-span-4 text-center">{tax}</p>
+              </div>
+              <div className="grid grid-cols-5 items-center mb-4">
+                <p className="col-span-1 text-left pl-4">Step Tax:</p>
+                <p className="col-span-4 text-center">{steptax}%</p>
               </div>
               <div className="grid grid-cols-5 items-center mb-4">
                 <p className="col-span-1 text-left pl-4">Net salary:</p>
