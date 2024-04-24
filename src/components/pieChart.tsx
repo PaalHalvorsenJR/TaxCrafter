@@ -18,7 +18,7 @@ const PieChart: React.FC<PieChartProps> = ({ salary, tax }) => {
     if (!isNaN(salaryValue) && !isNaN(taxValue)) {
       setChartData([
         ["Salary", salaryValue],
-        ["Tax", taxValue],
+        ["Net Salary", taxValue],
       ]);
     }
   }, [salary, tax]);
@@ -34,7 +34,7 @@ const PieChart: React.FC<PieChartProps> = ({ salary, tax }) => {
     series: [
       {
         type: "pie", // Add the 'type' property with the value 'pie'
-        name: "Payment",
+        name: "Cash",
         data: chartData,
       },
     ],

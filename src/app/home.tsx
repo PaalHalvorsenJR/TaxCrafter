@@ -34,7 +34,7 @@ export default function Home() {
       const calculatedNetto = nettoSalary(income);
       setNetto(calculatedNetto.toFixed(0));
     } else {
-      setTax("Please enter a valid number");
+      setSalary("500000");
     }
   };
 
