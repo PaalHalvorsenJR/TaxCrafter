@@ -6,8 +6,10 @@ import Home from "@/app/home";
 
 export default function Page() {
   return (
-    <RootLayout>
-      <Home />
-    </RootLayout>
+    <div>
+      <RootLayout>
+        <Home />
+      </RootLayout>
+    </div>
   );
 }
