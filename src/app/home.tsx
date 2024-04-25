@@ -101,10 +101,10 @@ export default function Home() {
               </div>
               <div className=" ml-7 grid grid-cols-2 w-full items-center mb-2">
                 <p className="text-sm col-span-4 text-left">
-                  Bagging {salary} kr in Norway? Thats a juicy stack! But pump
-                  the brakes, hotshot—here comes the taxman, tiptoeing like a
-                  ninja on snowshoes, ready to snatch {tax} kr—thats {steptax}%
-                  of your dough! Whats left for your piggy bank? Just {netto}{" "}
+                  Bagging {salary} kr in Norway&lsquo; Thats a juicy stack! But
+                  pump the brakes, hotshot—here comes the taxman, tiptoeing like
+                  a ninja on snowshoes, ready to snatch {tax} kr—thats {steptax}
+                  % of your dough! Whats left for your piggy bank? Just {netto}{" "}
                   kr. Its like gearing up for an all-you-can-eat Viking feast
                   and ending up with just the pickles. Seriously, trying to
                   dodge the Norwegian taxman is like trying to find flip-flops
