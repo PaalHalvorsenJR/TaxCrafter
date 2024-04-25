@@ -104,8 +104,8 @@ export default function Home() {
                   Bagging {salary} kr in Norway? That's a juicy stack! But pump
                   the brakes, hotshot—here comes the taxman, tiptoeing like a
                   ninja on snowshoes, ready to snatch {tax} kr—that's {steptax}%
-                  of your dough! What’s left for your piggy bank? Just {netto}{" "}
-                  kr. It’s like gearing up for an all-you-can-eat Viking feast
+                  of your dough! Whats left for your piggy bank? Just {netto}{" "}
+                  kr. Its like gearing up for an all-you-can-eat Viking feast
                   and ending up with just the pickles. Seriously, trying to
                   dodge the Norwegian taxman is like trying to find flip-flops
                   in a blizzard. Time to cough up the cash, pal!
