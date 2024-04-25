@@ -120,13 +120,11 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className=" w-1/2 text-1xl font-bold text-center text-gray-900">
-          <p>
-            TaxCrafter is a <span className="text-blue-500">simple</span>,
-            easy-to-use tool that helps you manage your{" "}
-            <span className="text-blue-500">taxes</span>.
-          </p>
-        </div>
+        <p>
+          TaxCrafter is a <span className="text-blue-500">simple</span>,
+          easy-to-use tool that helps you manage your{" "}
+          <span className="text-blue-500">taxes</span>.
+        </p>
       </div>
     </div>
   );
